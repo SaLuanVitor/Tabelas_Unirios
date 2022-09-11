@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em auto;
+}
+
+table {
+  margin: 2em auto;
+}
+
+.temporadasTable {
+  height: 500px;
+  width: 800px;
+}
+
+.casasPersonagensTable {
+  height: 500px;
+  width: 800px;
+}
+
+caption {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 1em;
+
+}
+
+table,
+td,
+th {
+  border: solid #000000 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: #000000;
+  border: solid #666666 1px;
+  color: white;
+  padding: 1em;
+}
+
+.temporadasTable td:first-child {
+  background-color: #666666;
+  font-weight: bolder;
+}
+
+.casasPersonagensTable td:first-child {
+  background-color: #666666;
+  text-align: center;
+  padding: 2em;
+  font-weight: bolder;
+}
+
+td a {
+  color: #ff6600;
+}
+
+img {
+  padding: 1em;
+}
+
+.Lema {
+  width: 15em;
+}
